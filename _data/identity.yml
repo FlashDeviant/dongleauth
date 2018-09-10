@@ -6,9 +6,8 @@ websites:
       software: Yes
       hardware: Yes
       otp: Yes
-      u2f: Yes
       exceptions:
-        text: "U2F requires a paid 1Password membership, only supports YubiKey 4 Series, YubiKey NEO, or YubiKey FIPS Series."
+        text: "OTP requires a paid 1Password membership, it also supports the Yubico Authenticator so you can use a U2F key for OTP authentication."
       doc: https://support.1password.com/two-factor-authentication/
 
     - name: Bitium
